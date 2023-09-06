@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+  background: url(/digital-clock/img/digital-clock-bg.png) no-repeat center
+    center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+    color: #DFDFE1;
+    font-size: 55px;
+    text-align: center; /* Center-align the text within the container */
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  font-family: 'Geologica';
+  text-shadow: #DFDFE1;
+}
